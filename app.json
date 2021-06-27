@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "popitalk",
+    "slug": "popitalk",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "owner": "popitalk",
+    "icon": "./assets/Images/logo.png",
+    "splash": {
+      "image": "./assets/Images/splashScreen.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "UIBackgroundModes": ["location", "fetch"]
+      }
+    },
+    "android": {
+      "package": "com.popitak.popitak",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Images/logo.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/Images/logo.png"
+    }
+  }
+}
